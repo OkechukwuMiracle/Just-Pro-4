@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sect-1 {
+    padding: 32px 88px 10px 88px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.one {
+    display: flex;
+    height: 48px;
+    gap: 9px;
+    font-size: 20px;
+}
+
+h3 {
+    color: #C6754D; 
+}
+
+.two {
+    font-weight: 400px;
+    line-height: 29px;
+    color: #C6754D;
+
+}
+
+.three {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.four {
+    padding-right: 40px;
+}
+
+.sect-2 {
+    background: #F0CCBB;
+    padding: 50px 0 30px 0;
+}
+
+img {
+    width: 60%;
+}
+
+.img_1 {
+    padding: 0 0px 0 100px;
+}
+
+h2 {
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.five {
+    display: flex;
+    justify-content: space-between;
+} 
+
+.six {
+    padding: 50px 87px 0 88px;
+}
+
+.seven {
+    width: 171px;
+    height: 46px;
+    padding: 14px 24px 14px 24px;
+    margin-top: 40px;
+    border-radius: 16px;
+    background: #C6754D;
+}
+
+.eight {
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.nine {
+    color: #231F20;
+    margin-top: 24px;
+}
+
+.sect-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 88px;
+}
+
+h1 {
+    font-family: Montaga;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.story {
+    color: #231F20;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.img_2 {
+    width: 100%;
+}
+
+.sect-5 {
+    width: Fixed (1,440px)px;
+    height: Hug (111px)px;
+    top: 1983px;
+    padding: 40px 0;
+    background: #FCF9F7;
+    text-align: center;
+}
