@@ -1,7 +1,13 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+        font-family: "Montaga", serif;
+        font-weight: 400;
+        font-style: normal;
+      
 }
 
 .sect-1 {
@@ -15,14 +21,17 @@
     display: flex;
     gap: 9px;
     font-size: 20px;
+    margin-bottom: 20px;
 }
 
-h3 {
-    color: #C6754D; 
+.img_1 {
+    width:13px;
+    height: 17px;
+    padding-top: 3px;
 }
 
 .love {
-    line-height: 29px;
+    line-height: 25px;
     color: #C6754D;
 
 }
@@ -47,9 +56,6 @@ img {
     width: 60%;
 }
 
-.img_1 {
-    /* padding: 0 0px 0 100px; */
-}
 
 h2 {
     font-size: 60px;
@@ -65,15 +71,14 @@ h2 {
 }
 
 .gen_2 {
-    padding: 14px 24px 14px 24px;
-    margin-top: 40px;
+    padding: 14px 0 14px 24px;
+    margin: 30px 70% 0 0;
     border-radius: 16px;
     background: #C6754D;
 }
 
 .read {
     color: #FFFFFF;
-    cursor: pointer;
 }
 
 .invitation {
@@ -100,12 +105,19 @@ h1 {
     line-height: 25px;
 }
 
-.img_2 {
+.img_3 {
     width: 100%;
 }
 
+a {
+   color: black;
+}
+
 .sect-5 {
+    display: flex;
     padding: 40px 0;
+    margin: 50px auto 0 ;
     background: #FCF9F7;
-    text-align: center;
+    justify-content: center;
+    gap: 10px;
 }
