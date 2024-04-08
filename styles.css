@@ -4,9 +4,9 @@
 }
 
 body {
-        font-family: "Montaga", serif;
-        font-weight: 400;
-        font-style: normal;
+    font-family: "Montaga", serif;
+    font-weight: 400;
+    font-style: normal;
       
 }
 
@@ -25,56 +25,87 @@ body {
 }
 
 .img_1 {
-    width:13px;
-    height: 17px;
+    width:15px;
+    height: 19px;
     padding-top: 3px;
 }
 
 .love {
     line-height: 25px;
     color: #C6754D;
+    font-size: 20px;
+}
 
+.buttons {
+    padding: 0 38px 0 0;
+    height: 30px;
 }
 
 .descendant-2 {
     border: none;
     background: none;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .hommie {
-    padding-right: 40px;
+    padding-right: 30px;
+}
+
+.img_4 {
+    display: none;
+}
+
+.container {
+    width: 100%;
+    height: 495px;
+    padding: 64px 0 72px 0;
+    background: #F0CCBB;
 }
 
 .sect-2 {
-    background: #F0CCBB;
-    padding: 50px 0 30px 0;
-}
-
-img {
-    width: 60%;
-}
-
-
-h2 {
-    font-size: 60px;
+    padding: 0 88px 0 88px;
+  
 }
 
 .descendant-3 {
-    display: flex;
-    justify-content: space-between;
+    display: flex; 
+    justify-content: space-between; 
 } 
 
+.container-img_2 {
+    text-align: right;
+    width: 40%;
+    height: 550px;
+}
+
+.img_2{
+    width: 370px;
+}
+
+h2 {
+    width: 80%;
+    font-size: 60px;
+    font-weight: 400;
+    margin: 0 0 18px 0;
+}
+
 .gen_1 {
-    padding: 50px 87px 0 88px;
+    height: 300px;
+    padding: 100px 0 0 0;
+}
+
+.h2_p_container {
+    width: 100%;
 }
 
 .gen_2 {
-    padding: 14px 0 14px 24px;
-    margin: 30px 70% 0 0;
+    width: 150px;
+    padding: 14px 0 14px 0;
+    margin: 38px 0 0 0;
     border-radius: 16px;
     background: #C6754D;
+    text-align: center;
 }
 
 .read {
@@ -83,7 +114,6 @@ h2 {
 
 .invitation {
     color: #231F20;
-    margin-top: 24px;
 }
 
 .sect-3 {
@@ -96,13 +126,14 @@ h2 {
 h1 {
     font-family: Montaga;
     font-size: 60px;
+    font-weight: 400;
 }
 
 .story {
     color: #231F20;
     font-size: 17px;
     font-weight: 300;
-    line-height: 25px;
+    line-height: 30px;
 }
 
 .img_3 {
@@ -120,4 +151,102 @@ a {
     background: #FCF9F7;
     justify-content: center;
     gap: 10px;
+}
+
+ @media screen and (max-width: 375px) { 
+    .sect-1 {
+        padding: 20px 24px;
+      
+    }
+    .img_1 {
+        width: 24px;
+        height: 24px;
+        padding: 0px 4px;
+    }
+    .love {
+        width: 75px;
+        height: 27px;
+    }
+    .sect-1 {
+        gap: 21rem;
+    }
+    .buttons {
+        display: none;
+    }
+    .img_4 {
+        display: block;
+        width: 24px;
+        height: 24px;
+    }  
+    .container {
+        width: 525px;
+        height: 1090px;
+    }
+    .sect-2 {
+        width: 465px;
+        height: 731px;
+        padding: 0 30px 0 30px;
+    }
+    .descendant-3 {
+        flex-direction: column;
+    }
+    .gen_1 {
+        padding: 30px 0 0 0;
+    }
+    h2 {
+        width: 490px;
+    }
+    .invitation {
+        width: 455px;
+        height: 66px;
+        font-size: 23px;
+    }
+    .gen_2 {
+        width: 335px;
+        height: 46px;
+        padding: 14px 64px;
+        border-radius: 16px;
+    }
+    .read {
+        font-size: 23px;
+        padding-top: 4px;
+    }
+    .container-img_2 {
+        width: 100%;
+        margin: 40% 0 0 0;
+        text-align: center;
+    }
+    .img_2 {
+        width: 400px;
+    }
+    .sect-3 {
+        flex-direction: column;
+        width: 490px;
+        height: 450px;
+        padding: 0;
+        margin: 0 20px;
+    }
+    h1 {
+        width: 490px;
+        padding-top: 40px;
+    }
+    .story {
+        width: 480px;
+        font-size: 23px;
+        padding-top: 40px;
+    }
+    .sect-4 {
+        width: 525px;
+    }
+    .img_3 {
+        width: 525px;
+        height: 473px;
+        margin-top: 40px;
+    }
+    .sect-5 {
+        width: 525px;
+        margin: 0 auto;
+    }
+
+
 }
