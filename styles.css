@@ -117,19 +117,22 @@ h2 {
 }
 
 .sect-3 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 88px;
+   display: flex;
+   width: 100%;
+   align-items: center;
 }
 
 h1 {
+    width: 80%;
     font-family: Montaga;
     font-size: 60px;
     font-weight: 400;
+    padding: 88px;
 }
 
 .story {
+    justify-content: right;
+    padding: 88px;
     color: #231F20;
     font-size: 17px;
     font-weight: 300;
@@ -153,7 +156,10 @@ a {
     gap: 10px;
 }
 
- @media screen and (max-width: 375px) { 
+ @media screen and (max-width: 345px) { 
+    body {
+        width: 100%;
+    }
     .sect-1 {
         padding: 20px 24px;
       
