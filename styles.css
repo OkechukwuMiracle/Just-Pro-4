@@ -156,7 +156,7 @@ a {
     gap: 10px;
 }
 
- @media screen and (max-width: 345px) { 
+ @media screen and (max-width: 375px) { 
     body {
         width: 100%;
     }
@@ -184,7 +184,7 @@ a {
         height: 24px;
     }  
     .container {
-        width: 582px;
+        width: 596px;
         height: 1090px;
         padding: 0, 20px;
     }
@@ -245,7 +245,7 @@ a {
         width: 581px;
     }
     .img_3 {
-        width: 585px;
+        width: 595px;
         height: 473px;
         margin-top: 50px;
     }
