@@ -161,7 +161,8 @@ a {
         width: 100%;
     }
     .sect-1 {
-        padding: 20px 24px;
+        padding: 20px 29px;
+        gap: 24rem;
       
     }
     .img_1 {
@@ -173,9 +174,7 @@ a {
         width: 75px;
         height: 27px;
     }
-    .sect-1 {
-        gap: 21rem;
-    }
+   
     .buttons {
         display: none;
     }
@@ -185,8 +184,9 @@ a {
         height: 24px;
     }  
     .container {
-        width: 525px;
+        width: 582px;
         height: 1090px;
+        padding: 0, 20px;
     }
     .sect-2 {
         width: 465px;
@@ -228,7 +228,7 @@ a {
     .sect-3 {
         flex-direction: column;
         width: 490px;
-        height: 450px;
+        height: 530px;
         padding: 0;
         margin: 0 20px;
     }
@@ -242,12 +242,12 @@ a {
         padding-top: 40px;
     }
     .sect-4 {
-        width: 525px;
+        width: 581px;
     }
     .img_3 {
-        width: 525px;
+        width: 585px;
         height: 473px;
-        margin-top: 40px;
+        margin-top: 50px;
     }
     .sect-5 {
         width: 525px;
